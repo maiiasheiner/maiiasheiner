@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+.slider {
+    height: 100vh;
+    width: 100%;
+    float: left;
+}
+
+.carousel-caption {
+    max-height: 350px !important;
+    max-width: 500px !important;
+    text-align: left !important;
+    left: 70px !important;
+    right: auto !important;
+    top: 580px !important;
+}
+
+.carousel-caption h1 {
+    font-size: 140px;
+}
+
+.carousel-caption p {
+    margin-top: 10px;
+    font-size: 25px;
+    width: 49rem;
+}
+
+.top-bar {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1225px;
+    z-index: 20;
+    font-size: 30px;
+    position: fixed;
+}
+
+.top-bar ul {
+    display: inline-flex;
+
+}
+
+.top-bar li {
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+.top-bar li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.top-bar li a:hover {
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1294px;
+    z-index: 1;
+}
+
+.carousel-indicators {
+    left: 79% !important;
+    height: 40% !important;
+    width: 95px !important;
+    top: 40% !important;
+    display: block !important;
+    color: white;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-left: 40px !important;
+    margin-top: 15px !important;
+    background: transparent !important;
+    border: 2px solid #fff !important;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+}
+
+.resp-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.social-btn {
+    display: inline;
+    background-color: transparent;
+    color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    border-radius: 25px;
+    text-decoration: none;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+.abcontainer {
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.abphoto {
+    width: 25rem;
+    height: 25rem;
+    margin-left: 16rem;
+
+    border-radius: 100%;
+    border: 4px solid;
+    padding: 8px;
+    color: lightgray;
+    position: absolute;
+    top: 70rem;
+
+}
+
+.abhead {
+    font-size: 7rem;
+    left: 54rem;
+    top: 72rem;
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+
+.abtext {
+    position: absolute;
+    top: 82rem;
+    width: 40rem;
+    height: 40rem;
+    left: 54.63rem;
+    font-size: 1.6rem;
+    color: lightpink;
+    text-align: justify;
+}
+
+.abgray {
+    position: absolute;
+    top: 80rem;
+    width: 100%;
+    margin-top: 25rem;
+}
+
+
+section.testimonial {
+    background: #F6F4EF;
+    height: 8rem;
+}
+
+section .inner {}
+
+section.testimonial .inner {
+    padding-top: 1rem;
+    text-align: center;
+
+}
+
+
+section.testimonial #quote-wrapper {
+    position: relative;
+    min-height: 358px;
+    padding-top: 0px;
+}
+
+section.testimonial blockquote {
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 27px;
+    line-height: 1.3em;
+    padding-top: 0.9rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0.75em;
+}
+
+q,
+blockquote {
+    quotes: none;
+}
+
+section.testimonial cite {
+    font-size: 18px;
+    color: #595756;
+    font-weight: bold;
+    margin: 2em 0;
+    margin-left: 38px;
+
+}
+
+
+section.testimonial blockquote::before {
+    content: "“";
+    color: #E0DDD7;
+    font-family: georgia, serif;
+    font-size: 6em;
+    position: absolute;
+    left: 2.0em;
+    top: 0.32em;
+    z-index: -10;
+}
+
+
+@media screen and (max-width: 750px) {
+
+
+
+    section.testimonial .quote {
+        max-width: 75%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+
+.about {
+    background-image: url(../img/about-fon.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    padding: 25px 0px 45px;
+}
+
+.about__inner {
+    max-width: 545px;
+    top: 115rem;
+    position: absolute;
+}
+
+.about__title {
+    padding: 10px 0px 25px;
+    font-size: 40px;
+    line-height: 24px;
+    color: lightblue;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 1rem;
+}
+
+.about__text {
+    margin-bottom: 30px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: black;
+    position: absolute;
+    width: 30rem;
+    top: 6rem;
+}
+
+.about__btn.default-btn:after {
+    color: #000;
+}
+
+.jphoto {
+    width: 20rem;
+    position: absolute;
+    left: 40rem;
+    top: 0rem;
+}
+
+.about__text {
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: black;
+    position: absolute;
+    width: 30rem;
+    text-align: justify;
+}
+
+.about__btn.default-btn:after {
+    color: #000;
+}
+
+.jphoto {
+    width: 30rem;
+    position: absolute;
+    left: 38rem;
+    top: 1rem;
+}
+
+.jpoto {
+    width: 20rem;
+    position: absolute;
+    left: 0rem;
+    top: 30rem;
+    left: 10rem;
+}
+
+.abouext {
+    margin-bottom: 0px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: black;
+    text-align: justify;
+    position: absolute;
+    width: 30rem;
+    top: 35rem;
+    left: 38rem;
+}
+
+.aboutitle {
+    padding: 10px 0px 25px;
+    font-size: 40px;
+    line-height: 22px;
+    color: lightpink;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 30rem;
+    left: 38rem;
+}
+
+.joto {
+    width: 30rem;
+    position: absolute;
+    left: 38.4rem;
+    top: 64rem;
+
+}
+
+.aboutle {
+    padding: 10px 0px 25px;
+    font-size: 40px;
+    line-height: 24px;
+    color: olive;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 64.5rem;
+    left: 0rem;
+}
+
+.aboux {
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    color: black;
+    text-align: justify;
+    position: absolute;
+    width: 30rem;
+    top: 70rem;
+    left: rem;
+}
+
+
+.contactc {
+    background-color: lightgray;
+    height: 15rem;
+    min-width: 100%;
+    margin-top: 66rem;
+}
+
+
+
+.contact {
+    padding-left: 150px;
+    padding-top: 1px;
+    word-spacing: 200px;
+}
+
+.socialicons {
+    float: right;
+    margin-top: -25px;
+    margin-right: 260px;
+    display: inline-block;
+    display: inline;
+}
+
+.socialicons2 {
+    float: right;
+    margin-right: 220px;
+    margin-top: -25px;
+    display: inline-block;
+    display: inline;
+}
+
+.follow {
+font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 208.5rem;
+    left: 40rem;
+    color: white;
+}
+
+.phone {
+    font-size: 1.6rem;
+    color: black;
+    position: absolute;
+    left: 53rem;
+    top: 215rem;
+}
+
+.email {
+    font-size: 1.6rem;
+    position: absolute;
+    top: 215rem;
+}
+
+.instagram {
+    font-size: 1.6rem;
+    position: absolute;
+    top: 215rem;
+    left: 90rem;
+   
+}
+
+a:link {
+  color: black;
+}
+
+
+
